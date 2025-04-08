@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Codespace-specific API endpoint suffix
+CODESPACE_API_SUFFIX = 'https://bookish-spoon-5vx7vw5xwg34qqj-8000.app.github.dev/'
+
 
 # Application definition
 
