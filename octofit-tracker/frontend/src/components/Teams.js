@@ -5,7 +5,7 @@ function Teams() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch('https://bookish-spoon-5vx7vw5xwg34qqj-8000.app.github.dev/api/teams')
+    fetch('https://bookish-spoon-5vx7vw5xwg34qqj-8000.app.github.dev/api/teams/')
       .then(response => response.json())
       .then(data => setTeams(data));
   }, []);

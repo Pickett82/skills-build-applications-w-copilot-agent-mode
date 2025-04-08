@@ -5,7 +5,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch('https://bookish-spoon-5vx7vw5xwg34qqj-8000.app.github.dev/api/users')
+    fetch('https://bookish-spoon-5vx7vw5xwg34qqj-8000.app.github.dev/api/users/')
       .then(response => response.json())
       .then(data => setUsers(data));
   }, []);
